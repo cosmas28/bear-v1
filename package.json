@@ -1,0 +1,19 @@
+{
+  "name": "bear-node-api",
+  "main": "index.js",
+  "scripts": {
+    "start": "nodemon --exec babel-node --presets env src/index.js"
+  },
+  "dependencies": {
+    "body-parser": "~1.0.1",
+    "dotenv": "^6.1.0",
+    "express": "~4.0.0",
+    "mongoose": "~3.6.13"
+  },
+  "devDependencies": {
+    "babel-cli": "^6.26.0",
+    "babel-preset-env": "^1.7.0",
+    "babel-preset-stage-2": "^6.24.1",
+    "nodemon": "^1.18.6"
+  }
+}
